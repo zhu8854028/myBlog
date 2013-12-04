@@ -1,2 +1,3 @@
 1、使用nodeJs+expressJs+mongoDb
 2、nodeJs中需要install的模块有connect-flash, connect-mongo, ejs, express, jade, mongodb
+3、db文件夹中的两个文件是导出的两个集合数据
