@@ -1,0 +1,2 @@
+1、使用nodeJs+expressJs+mongoDb
+2、nodeJs中需要install的模块有connect-flash, connect-mongo, ejs, express, jade, mongodb

@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding :0;
+    font-family: "Microsoft Yahei", Tahoma, Simsun;
+    font-size: 14px;
+}
+body {
+    background: url(/images/bg.jpg);
+    color: #FFF;
+}
+.left{
+    float:left;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 0;
+    width : 200px;
+    height : 800px;
+    background-color: #596d7f;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    float:left;
+    margin-left: 50px;
+    width: 400px;
+}
+nav a:hover{
+    background: #87ceeb;
+}
+a:link {
+    color: #87ceeb;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #87ceeb;
+}
+tr:last-child{
+    text-align: center;
+}
+td{
+    height: 24px;
+    padding: 5px;
+}
+.left td{
+    text-align: center;
+    width:200px;
+    padding-top: 25px;
+    padding-left: 60px;
+}
+td:first-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: left;
+}
+td input[type="password"],td input[type="text"]{
+    display: block;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+td.btn{
+    text-align: center;
+
+}
+td.btn input{
+    padding:0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}  

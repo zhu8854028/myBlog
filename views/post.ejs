@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <%- include header %>
+
+    <div class="right">
+        <center><h2>发表文章</h2> </center>
+        <hr/>
+    <form method="post" action="./post">
+        标题：<br/>
+        <input type="text" name="title"/><br/>
+        内容：<br/>
+        <textarea id="editor_id" name="post" style="width:500px;height:300px;"></textarea><br />
+        <input type="submit" value="提交" class="btn"/>
+    </form>
+    <%- include footer %>
+
+    </form>
+    </div>
+
+  </body>
+</html>
